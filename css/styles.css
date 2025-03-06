@@ -548,6 +548,7 @@ img {
 }
 
 .modal-form-custom-checkbox {
+  flex-shrink: 0;
   width: 16px;
   height: 16px;
   border-radius: 2px;
