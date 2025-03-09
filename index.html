@@ -410,7 +410,7 @@
           <div class="modal-form-part">
             <label class="modal-form-label" for="user-name">Name</label>
             <div class="modal-input-container">
-              <input class="modal-form-input" type="text" name="user-name" id="user-name" pattern="[A-Za-z]{3,30}" title="John Doe" required />
+              <input class="modal-form-input" type="text" name="user-name" id="user-name" pattern="[A-Za-z]{3,30}" title="John Doe" required autocomplete="name" />
               <svg class="modal-form-label-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
@@ -419,7 +419,7 @@
           <div class="modal-form-part">
             <label class="modal-form-label" for="phone">Phone</label>
             <div class="modal-input-container">
-              <input class="modal-form-input" type="tel" name="phone" id="phone" pattern="^\+?3?8?(0[5-9][0-9]\d{7})$" title="+380XXXXXXXXX" required />
+              <input class="modal-form-input" type="tel" name="phone" id="phone" pattern="^\+?3?8?(0[5-9][0-9]\d{7})$" title="+380XXXXXXXXX" required autocomplete="tel" />
               <svg class="modal-form-label-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
@@ -428,7 +428,7 @@
           <div class="modal-form-part">
             <label class="modal-form-label" for="user-email">Email</label>
             <div class="modal-input-container">
-              <input class="modal-form-input" type="email" name="user-email" id="user-email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="name@domain.com" required />
+              <input class="modal-form-input" type="email" name="user-email" id="user-email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" title="name@domain.com" required autocomplete="email" />
               <svg class="modal-form-label-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
